@@ -1,0 +1,38 @@
+require:
+  - rubocop-performance
+  - rubocop-rspec
+
+AllCops:
+  Exclude:
+    - "documentation/*"
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: nested
+
+Metrics/LineLength:
+  Max: 150
+
+Metrics/BlockLength:
+  Exclude:
+    - "documentation/*"
+    - spec/**/*
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - "documentation/*"
+    - spec/**/*
+
+Style/Documentation:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Exclude:
+    - "documentation/*"
+    - spec/quake_logs/models/*
+
+RSpec/MultipleMemoizedHelpers:
+  Exclude:
+    - spec/quake_logs/*

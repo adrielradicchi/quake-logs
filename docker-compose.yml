@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    networks:
+      - network
+    volumes:
+      - ./:/app
+
+networks:
+  network:
+    driver: bridge
