@@ -59,4 +59,4 @@ OR
 
 ## Documentation this project
 
-Exists a folder in this project with called documentation. In this folder exist the file called `documentation.md`, this documentation describe all specification about this project and exists a file called qgames.log this file it's used to run this project at this folder. It's contains all games log from Quake 3 Arena.
+Exists a folder in this project with called documentation. In this folder exist the file called `documentation.md`, this documentation describe all specification about this project and exists a file called `qgames.log` this file it's used to run this project at this folder. It's contains all games log from Quake 3 Arena.
